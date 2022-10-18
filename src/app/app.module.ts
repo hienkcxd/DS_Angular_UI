@@ -12,6 +12,9 @@ import { HomeComponent } from './home/home.component';
 import { CardComponent } from './home/card/card.component';
 import { TableComponent } from './home/table/table.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { LoginComponent } from './auth/login/login.component';
+import { Errors404Component } from './auth/errors404/errors404.component';
+import { Errors500Component } from './auth/errors500/errors500.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     HomeComponent,
     CardComponent,
     TableComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    LoginComponent,
+    Errors404Component,
+    Errors500Component
   ],
   imports: [
     BrowserModule,
